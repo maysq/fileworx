@@ -23,7 +23,7 @@ public class TestNGConfig {
 
     @AfterTest
     public void tearDown(){
-        driver.quit ();
+        //driver.quit ();
     }
 
 }

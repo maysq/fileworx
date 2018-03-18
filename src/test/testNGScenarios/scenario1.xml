@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Add_Item_Suite">
+<suite name="Scenario1_Suite">
     <test name="scenario1_test">
         <parameter name="browser" value="chrome"/>
         <classes>
@@ -12,6 +12,11 @@
             <class name="fileworx.Home">
                 <methods>
                     <include name="click_Preferences"/>
+                </methods>
+            </class>
+            <class name="fileworx.Preferences">
+                <methods>
+                    <include name="changeDefaultHomePage"/>
                 </methods>
             </class>
         </classes>

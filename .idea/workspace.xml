@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73c17f6b-3444-4bbe-a8a7-ce6fcf32cca0" name="Default" comment="" />
+    <list default="true" id="73c17f6b-3444-4bbe-a8a7-ce6fcf32cca0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commons/TestNGConfig.java" afterPath="$PROJECT_DIR$/src/main/java/commons/TestNGConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fileworx/Preferences.java" afterPath="$PROJECT_DIR$/src/test/java/fileworx/Preferences.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/testNGScenarios/scenario1.xml" afterPath="$PROJECT_DIR$/src/test/testNGScenarios/scenario1.xml" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fileworx/NavigationBar.class" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,18 +33,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preferences.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Preferences.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/fileworx/Preferences.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="366">
+              <caret line="158" column="9" lean-forward="false" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5235#5236#0" expanded="true" />
-                <element signature="e#5317#5318#0" expanded="true" />
-                <element signature="e#5362#5363#0" expanded="true" />
-                <element signature="e#5446#5447#0" expanded="true" />
+                <element signature="e#5426#5427#0" expanded="true" />
+                <element signature="e#5508#5509#0" expanded="true" />
+                <element signature="e#5562#5563#0" expanded="true" />
+                <element signature="e#5646#5647#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scenario1.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/testNGScenarios/scenario1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,12 +85,12 @@
         <option value="$PROJECT_DIR$/src/test/java/fileworx/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/fileworx/ComposeNews.java" />
         <option value="$PROJECT_DIR$/src/test/java/fileworx/LogIn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/commons/TestNGConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/fileworx/NavigationBar.java" />
-        <option value="$PROJECT_DIR$/src/test/testNGScenarios/scenario1.xml" />
         <option value="$PROJECT_DIR$/src/test/java/fileworx/Home.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/commons/TestNGConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/fileworx/Preferences.java" />
+        <option value="$PROJECT_DIR$/src/test/testNGScenarios/scenario1.xml" />
       </list>
     </option>
   </component>
@@ -194,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LogIn.logIn">
+  <component name="RunManager" selected="TestNG.D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -341,8 +357,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.LogIn.logIn" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.LogIn.logIn" />
       </list>
     </recent_temporary>
   </component>
@@ -363,18 +379,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.17 at 14h 39m 33s.xml">
-      <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.17 at 14h 41m 05s.xml">
-      <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.17 at 14h 41m 45s.xml">
-      <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.17 at 14h 45m 29s.xml">
-      <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.17 at 14h 46m 55s.xml">
       <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
     </history-entry>
@@ -388,6 +392,18 @@
       <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.17 at 17h 50m 17s.xml">
+      <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.18 at 09h 49m 57s.xml">
+      <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.18 at 09h 52m 37s.xml">
+      <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.18 at 09h 53m 15s.xml">
+      <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__selenium_Fileworx_src_test_testNGScenarios_scenario1_xml - 2018.03.18 at 09h 53m 56s.xml">
       <configuration name="D:/selenium/Fileworx/src/test/testNGScenarios/scenario1.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LogIn_logIn - 2018.03.18 at 09h 16m 25s.xml">
@@ -406,8 +422,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18336888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -496,17 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commons/TestNGConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#677#678#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fileworx/ComposeNews.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -544,14 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/testNGScenarios/scenario1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fileworx/Home.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -572,17 +569,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commons/TestNGConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fileworx/Preferences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="366">
+          <caret line="158" column="9" lean-forward="false" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5235#5236#0" expanded="true" />
-            <element signature="e#5317#5318#0" expanded="true" />
-            <element signature="e#5362#5363#0" expanded="true" />
-            <element signature="e#5446#5447#0" expanded="true" />
+            <element signature="e#5426#5427#0" expanded="true" />
+            <element signature="e#5508#5509#0" expanded="true" />
+            <element signature="e#5562#5563#0" expanded="true" />
+            <element signature="e#5646#5647#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testNGScenarios/scenario1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
