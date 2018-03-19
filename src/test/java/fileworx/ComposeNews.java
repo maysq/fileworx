@@ -24,15 +24,15 @@ public class ComposeNews extends TestNGConfig{
         webDriverWait= new WebDriverWait (driver, 10);
     }
     @Test
-    public static void click_Compose () {
-        driver.findElement(By.cssSelector("i.fa.fa-pencil.fa-lg")).click();
+    public void click_Compose () {
+        webDriverWait.until (ExpectedConditions.visibilityOfElementLocated (By.cssSelector("i.fa.fa-pencil.fa-lg"))).click();
     }
     @Test
-    public static void fill_Title (String title) {
-        driver.findElement(By.id("txtTitle")).sendKeys(title);
+    public void fill_Title (String title) {
+        webDriverWait.until (ExpectedConditions.visibilityOfElementLocated (By.id("txtTitle"))).sendKeys(title);
     }
     @Test
-    public static void select_Tag_1 () {
+    public void select_Tag_1 () {
         Select tag1 = new Select (driver.findElement(By.id("Classifications_FirstLevel")));
         //We used List class to save all the options in the <Select> tag and find it length then select an option randomly
         List<WebElement> tag1Options = tag1.getOptions();
