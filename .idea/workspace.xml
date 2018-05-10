@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list id="6cfa6cbf-f47a-4c6f-b0d4-83ae62bca073" name="add browser parameter to TestNG" comment="add select items class and other minor changes" />
     <list default="true" id="73c17f6b-3444-4bbe-a8a7-ce6fcf32cca0" name="Default" comment="add browser parameter to TestNG">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commons/ReadFile.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/fileworx/Events.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fileworx/SelectItem.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/fileworx/test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/properties/events_data.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/testNGScenarios/CreateEvent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testNGScenarios/master.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/testNGScenarios/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_13_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fileworx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fileworx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commons/TestNGConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commons/TestNGConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fileworx/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fileworx/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fileworx/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fileworx/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/testNGScenarios/scenario1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testNGScenarios/scenario1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/commons/TestNGConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commons/TestNGConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fileworx/ComposeNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fileworx/ComposeNews.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fileworx/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fileworx/LogIn.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,8 +24,8 @@
       <file leaf-file-name="SelectItem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/fileworx/SelectItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="467">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,6 +157,11 @@
             <path>
               <item name="Fileworx" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fileworx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fileworx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fileworx" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fileworx" type="b2602c69:ProjectViewProjectNode" />
@@ -458,6 +449,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="73c17f6b-3444-4bbe-a8a7-ce6fcf32cca0" name="Default" comment="" />
+      <changelist id="6cfa6cbf-f47a-4c6f-b0d4-83ae62bca073" name="add browser parameter to TestNG" comment="" />
       <created>1520934800702</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -491,7 +483,28 @@
       <option name="project" value="LOCAL" />
       <updated>1521458396996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add browser parameter to TestNG">
+      <created>1525960135029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525960135029</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add select items class and other minor changes">
+      <created>1525960236759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525960236759</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add select items class and other minor changes">
+      <created>1525960499935</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525960499935</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -544,11 +557,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.37337664" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.10660981" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49840087" visible="true" weight="0.37337664" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3452381" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
@@ -603,7 +616,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="slight modifications" />
     <MESSAGE value="add browser parameter to TestNG" />
-    <option name="LAST_COMMIT_MESSAGE" value="add browser parameter to TestNG" />
+    <MESSAGE value="add select items class" />
+    <MESSAGE value="add select items class and other minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add select items class and other minor changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/testNGScenarios/CreateEvent.xml">
@@ -1068,8 +1083,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fileworx/SelectItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="467">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
