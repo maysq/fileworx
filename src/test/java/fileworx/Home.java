@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Home extends TestNGConfig{
@@ -30,7 +31,8 @@ public class Home extends TestNGConfig{
        webDriverWait.until (ExpectedConditions.visibilityOfElementLocated (By.xpath ("//*[@id=\"side-menu\"]/li[1]/div/a/span/span[2]/b"))).click ();
        webDriverWait.until (ExpectedConditions.visibilityOfElementLocated (By.xpath ("//*[@id=\"side-menu\"]/li[1]/div/ul/li[1]"))).click ();
     }
-
+    @Parameters("moduleName")
+    @Test
     public static void selectModule (String moduleName) {
         //If you want to open a screen inside an already expanded module, first web driver will click the module
         //so it will be collapsed, Therefore web driver will not be able to locate the screen inside this module.
@@ -51,16 +53,19 @@ public class Home extends TestNGConfig{
             driver.findElement(By.xpath("//span[@class='nav-label' and contains(text(), '"+moduleName+"')]")).click();
         }
     }
-
+    @Parameters("screenName")
+    @Test
     public static void selectScreen (String screenName){
         //Note that find by linkText is case sensitive
         driver.findElement(By.linkText(screenName)).click();
     }
-
+    @Parameters("workflowScreen")
+    @Test
     public static void selectWorkflowScreen (String workflowScreen) {
         driver.findElement(By.xpath("//label[@class='center-block m-t-xs' and contains(text(), '"+workflowScreen+"')]")).click();
     }
-
+    @Parameters("agencyScreen")
+    @Test
     public static void selectAgencyScreen (String agencyScreen) {
         driver.findElement(By.xpath("//label[@class='center-block' and contains(text(), '"+agencyScreen+"')]")).click();
     }

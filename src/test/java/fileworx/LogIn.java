@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 public class LogIn extends TestNGConfig{
     WebDriverWait webDriverWait= null;
     //Log in info
-    String username= "mays";
-    String password = "123";
+    String username= "root";
+    String password = "root";
     @BeforeMethod
     public void setUpLogin(){
         webDriverWait= new WebDriverWait (driver, 10);
@@ -21,5 +21,6 @@ public class LogIn extends TestNGConfig{
         webDriverWait.until (ExpectedConditions.visibilityOfElementLocated (By.id("txtUserName"))).sendKeys(username);
         webDriverWait.until (ExpectedConditions.visibilityOfElementLocated (By.id("txtPassword"))).sendKeys(password);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated (By.cssSelector ("button.ladda-button.ladda-button-demo.btn.btn-primary[type=submit]"))).click ();
+
 }
 }
