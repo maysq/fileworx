@@ -70,5 +70,4 @@ public class Home extends TestNGConfig{
         driver.findElement(By.xpath("//label[@class='center-block' and contains(text(), '"+agencyScreen+"')]")).click();
     }
 
-
     }

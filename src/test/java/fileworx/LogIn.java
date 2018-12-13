@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pageObjects.LogInPage;
 
 public class LogIn extends TestNGConfig{
     WebDriverWait webDriverWait= null;
@@ -18,9 +19,10 @@ public class LogIn extends TestNGConfig{
     }
     @Test
     public void logIn(){
-        webDriverWait.until (ExpectedConditions.visibilityOfElementLocated (By.id("txtUserName"))).sendKeys(username);
-        webDriverWait.until (ExpectedConditions.visibilityOfElementLocated (By.id("txtPassword"))).sendKeys(password);
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated (By.cssSelector ("button.ladda-button.ladda-button-demo.btn.btn-primary[type=submit]"))).click ();
-
+        LogInPage loginpage= new LogInPage (driver);
+        loginpage.enterUserName ("mays");
+        loginpage.enterPassword ("123");
+        loginpage.clickLogin ();
+        loginpage.verifySuccessfulLogin ("mays");
 }
 }

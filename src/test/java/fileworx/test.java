@@ -1,17 +1,19 @@
 package fileworx;
 
+import commons.TestNGConfig;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+import pageObjects.HomePage;
+import pageObjects.LogInPage;
 
 @Test
-public class test {
-    public static WebDriver driver;
-    public static String baseURL= "http://10.0.0.139/sedcowebserver";
+public class test extends TestNGConfig{
+   // public static WebDriver driver;
+    public static String baseURL= "http://10.0.10.71/sedcowebserver";
     String username= "root";
     String password = "root";
     WebDriverWait webDriverWait= null;
@@ -28,4 +30,19 @@ public class test {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated (By.cssSelector ("button.ladda-button.ladda-button-demo.btn.btn-primary[type=submit]"))).click ();
     }
 }
+
+@Test
+    public void testLogin(){
+
+        LogInPage login = new LogInPage (driver);
+    HomePage home = new HomePage (driver);
+        login.enterUserName ("root");
+        login.enterPassword ("root");
+        login.clickLogin ();
+       // home.click_User ();
+       // home.click_Preferences ();
+        home.selectWorkflowScreen ("Inbox");
+
+}
+
 }

@@ -4,12 +4,13 @@
     <test name="scenario1_test" thread-count="1">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="fileworx.LogIn ">
+
+            <class name="fileworx.LogIn">
                 <methods>
                     <include name="logIn"/>
                 </methods>
             </class>
-            <class name="fileworx.SelectItem">
+            <class name="fileworx.Screen">
                 <methods>
                     <include name="selectItem"/>
                 </methods>

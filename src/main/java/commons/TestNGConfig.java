@@ -17,7 +17,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -26,7 +25,7 @@ import java.util.Map;
 public class TestNGConfig {
 
     public static WebDriver driver;
-    public static String baseURL= "http://10.0.0.139/sedcowebserver";
+    public static String baseURL= "http://10.0.10.71/sedcowebserver";
 @Parameters ("browser")
     @BeforeTest
     public void setUp(String browser){
@@ -46,7 +45,7 @@ switch (browser){
         capabilities.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
 
         // Define driver from Internet Explorer driver type
-        driver = new InternetExplorerDriver(capabilities);
+        driver = new InternetExplorerDriver (capabilities);
         break;
     }
     case "chrome":
@@ -105,8 +104,10 @@ switch (browser){
     }
 
     @AfterTest
-    public void tearDown(){
-        driver.quit ();
+    public void tearDown()
+    {
+    driver.close ();
+    driver.quit ();
     }
 
 }
