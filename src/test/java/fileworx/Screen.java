@@ -11,7 +11,7 @@ import org.testng.util.Strings;
 
 import java.util.Map;
 
-public class SelectItem extends TestNGConfig {
+public class Screen extends TestNGConfig {
     WebDriverWait webDriverWait = null;
 
     public static String getObjID() throws Exception{
